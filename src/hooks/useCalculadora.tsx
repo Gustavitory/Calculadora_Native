@@ -34,7 +34,7 @@ export const useCalculadora = () => {
   
     function separator(numb:String) {
       var str = numb.split('.');
-      str[0] = str[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+      str[0] = str[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");    
       return str.join(".");
     }
   

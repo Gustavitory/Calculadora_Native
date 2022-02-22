@@ -22,8 +22,8 @@ export const globalStyles = StyleSheet.create({
         textAlign:'right'
     },
     boton:{
-        height:75,
-        width:75,
+        width:'21%',
+        height:'17%',        
         borderRadius:100,
         justifyContent:'center',
         marginBottom:10
